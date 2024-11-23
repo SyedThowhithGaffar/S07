@@ -1,0 +1,20 @@
+package com.pageobjectmanager;
+
+import com.baseclass.Baseclass;
+import com.pageobjectmodel.OpenMrsPageObjectModel;
+import com.srcmainresource.OpenMrsFileReaderManager;
+
+public class OpenMrsPageObjectManager extends Baseclass {
+
+	private OpenMrsFileReaderManager fileReader;
+	private OpenMrsPageObjectModel loginPage;
+	public OpenMrsFileReaderManager getFileReader() {
+		return fileReader;
+	}
+	public OpenMrsPageObjectModel getLoginPage() {
+		return loginPage;
+	}
+	
+	
+	
+}

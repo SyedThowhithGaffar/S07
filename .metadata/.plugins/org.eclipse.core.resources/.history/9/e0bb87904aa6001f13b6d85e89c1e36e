@@ -1,0 +1,19 @@
+//package oops;
+
+//class childClass extends mom{
+	public static void main(String[] args){
+ childClass cc=new childClass();
+	//cc.properties();
+ 	//cc.Villa();
+ //cc.Villa();
+// 	cc.support();
+	}
+ 	
+	
+
+	public static void Villa() {
+		System.out.println("Prestige");
+		
+	}
+	
+}

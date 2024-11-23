@@ -1,0 +1,17 @@
+package com.interfaceElements;
+
+public interface interfaceElements {
+
+	//Login Elements
+	String userName_id="username";
+	String passWord_name="password";
+	String loginButton_id="login";
+	
+	
+	
+	
+	
+	
+	
+	
+}

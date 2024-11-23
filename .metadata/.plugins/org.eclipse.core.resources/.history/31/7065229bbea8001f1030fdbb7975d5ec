@@ -1,0 +1,30 @@
+package com.TestNG;
+
+import com.baseclass.BaseClass;
+
+import org.junit.experimental.theories.DataPoint;
+import org.openqa.selenium.By;
+import org.testng.annotations.DataProvider;
+
+public class DataProviderTest extends BaseClass{
+@DataProvider
+  public void login(String username, String password) {
+	  launchBrowser("chrome");
+	  launchUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+	  implicitWait(20);
+	  driver.findElement(By.xpath("//input[@fdprocessedid='625h4g']")).sendKeys(username);
+	  driver.findElement(By.xpath("//input[@fdprocessedid='dam4r9']]")).sendKeys(password);
+	  driver.findElement(By.xpath("//button[text()='']")).click();
+	  terminateBrowser();
+}
+
+
+	@DataProvider(name = "login")
+public Object[] [] dataset{}{
+	return new Object
+}
+
+
+}
+	
+

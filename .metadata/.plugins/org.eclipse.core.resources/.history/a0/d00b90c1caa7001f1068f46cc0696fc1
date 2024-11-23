@@ -1,0 +1,17 @@
+package com.listeners;
+
+import org.testng.annotations.BeforeSuite;
+
+import com.aventstack.extentreports.ExtentTest;
+
+public class ExtentReport_Test {
+	
+	public static ExtentTest extenttest;
+	
+	@BeforeSuite
+	public void extentTestReportStartup()
+	Base_Class base = new Base_Class() {
+		
+	};
+	
+	}

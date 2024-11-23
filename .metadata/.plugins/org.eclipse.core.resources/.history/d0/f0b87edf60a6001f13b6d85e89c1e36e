@@ -1,0 +1,10 @@
+package com.pageobjectmanager;
+
+import com.baseclass.Baseclass;
+
+public class OpenMrsPageObjectManager extends Baseclass {
+
+	public OpenMrsPageObjectManager = new OpenMrs
+	
+	
+}

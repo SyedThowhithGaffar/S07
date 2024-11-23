@@ -1,0 +1,16 @@
+package com.interfaceelements;
+
+public interface MenAddressElementsInterface {
+
+	String email_xpath = "//input[@fdprocessedid='ohrl2']";
+	String _xpath = "";
+	String _xpath = "";
+	String _xpath = "";
+	String _xpath = "";
+	String _xpath = "";
+	String _xpath = "";
+	String _xpath = "";
+	String _xpath = "";
+	String _xpath = "";
+	
+}

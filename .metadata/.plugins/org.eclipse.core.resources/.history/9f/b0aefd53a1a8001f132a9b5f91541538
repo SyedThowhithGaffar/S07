@@ -1,0 +1,17 @@
+package com.interfaceelements;
+
+public interface MenAddressElementsInterface {
+	
+	String cartButton_xpath = "//a[@href='https://magento.softwaretestingboard.com/checkout/cart/']";
+	String email_xpath = "//input[@fdprocessedid='ohrl2']";
+	String firstName_xpath = "//input[@id='PKOPNTP']";
+	String lastName_xpath = "";
+	String address_xpath = "//input[@fdprocessedid='nqofx7']";
+	String country_xpath = "//select[@id='RNSDE5E']";
+	String state_xpath = "//select[@id='QYD2MYD']";
+	String city_xpath = "//input[@id='XH9H0LD']";
+	String pinCode_xpath = "//input[@id='WK6E4S1']";
+	String phoneNumber_xpath = "//input[@fdprocessedid='7hmn5i']";
+	String _xpath = "";
+	
+}

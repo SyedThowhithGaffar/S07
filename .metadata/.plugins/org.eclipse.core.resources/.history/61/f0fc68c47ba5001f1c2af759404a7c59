@@ -1,0 +1,16 @@
+package com.TestNG;
+
+import com.baseclass.Baseclass;
+
+public class CrossBrowser extends Baseclass{
+ 
+	private void firefox() {
+		bro
+	}
+	private void edge() {
+		
+	}
+	private void chrome() {
+		
+	}
+}

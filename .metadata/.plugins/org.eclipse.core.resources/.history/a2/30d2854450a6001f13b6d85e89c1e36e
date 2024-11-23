@@ -1,0 +1,8 @@
+package com.interfaceElements;
+
+public class OpenMrsInterfaceElements {
+
+	String userName_xpath = "//input[@id='username']";
+	String passWord
+			
+}

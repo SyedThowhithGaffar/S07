@@ -1,0 +1,17 @@
+package com.interfaceelements;
+
+public interface MenAddressElementsInterface {
+	
+	String cartButton_xpath = "";
+	String email_xpath = "//input[@fdprocessedid='ohrl2']";
+	String firstname_xpath = "//input[@id='PKOPNTP']";
+	String _xpath = "";
+	String _xpath = "";
+	String _xpath = "";
+	String _xpath = "";
+	String _xpath = "";
+	String _xpath = "";
+	String _xpath = "";
+	String _xpath = "";
+	
+}

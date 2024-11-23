@@ -1,0 +1,25 @@
+package com.runner;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.baseclass.Baseclass;
+import com.pageobjectmanager.OpenMrsPageObjectManager;
+
+public class OpenMrsRunner extends Baseclass{
+
+	OpenMrsPageObjectManager page = new OpenMrsPageObjectManager();
+
+	@BeforeTest
+	public void setUp() throws IOException {
+		launchBrowser(page.getFileReader().getDataProperty("browser"));
+	}
+	@Test
+	public void validUserNameAndValidPassword() throws IOException {
+		Assert.assertTrue(page.getLoginPage().validUserNameAndValidPassword());
+	}
+	
+}

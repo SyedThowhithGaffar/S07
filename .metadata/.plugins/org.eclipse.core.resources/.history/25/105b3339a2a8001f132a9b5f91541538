@@ -1,0 +1,15 @@
+package com.pageobjectmodel;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class MenAddressModelPage {
+
+	@FindBy(xpath = cartButton_xpath)
+	private WebElement cartButton;
+	
+	@FindBy(xpath = email_xpath)
+	private WebElement email;
+	
+	@FindBy(xpath = )
+}

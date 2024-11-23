@@ -1,0 +1,8 @@
+package com.TestNG;
+
+import com.baseclass.BaseClass;
+
+public class DataProvider extends BaseClass{
+
+	
+}

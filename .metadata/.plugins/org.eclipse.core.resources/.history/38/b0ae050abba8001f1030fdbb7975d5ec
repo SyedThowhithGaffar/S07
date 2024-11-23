@@ -1,0 +1,11 @@
+package com.TestNG;
+
+import com.baseclass.BaseClass;
+
+public class DataProvider extends BaseClass{
+	@org.testng.annotations.DataProvider
+  public void login(String username, String password) {
+	  
+  }
+	
+}

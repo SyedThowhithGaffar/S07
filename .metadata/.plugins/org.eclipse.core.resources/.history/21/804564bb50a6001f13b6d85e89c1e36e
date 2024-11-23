@@ -1,0 +1,9 @@
+package com.interfaceElements;
+
+public class OpenMrsInterfaceElements {
+
+	String userName_xpath = "//input[@id='username']";
+	String passWord_xpath = "//input[@id='password']";
+	String location_xpath = "//li[text()='Isolation Ward']";
+	String login_		
+}

@@ -1,0 +1,13 @@
+#BROWSER SELECTION 
+browser = chrome
+
+#APPLICATION CREDENTIALS
+lnusername = admin
+lnpassword = Admin123
+empty = 
+
+#BROWSER URL
+url = https://demo.openmrs.org/openmrs/login.htm
+
+title = Home
+

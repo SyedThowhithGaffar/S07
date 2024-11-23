@@ -1,0 +1,34 @@
+package com.pageobjectmanager;
+
+import org.openqa.selenium.WebDriver;
+
+import com.baseclass.Baseclass;
+import com.pageobjectmodel.AdactinLoginPage;
+import com.pageobjectmodel.BookHotelPage;
+import com.pageobjectmodel.OpenMrsPageObjectModel;
+import com.pageobjectmodel.SearchHotelModel;
+import com.srcmainresource.FileReaderManager;
+
+public class pageObjectManager extends Baseclass{
+	private FileReaderManager fileReader;
+	private OpenMrsPageObjectModel loginPage;
+	public FileReaderManager getFileReader() {
+		if(fileReader == null) {
+			fileReader = new FileReaderManager();
+		}
+		return fileReader;
+	}
+	public OpenMrsPageObjectModel getLoginPage() {
+		if(loginPage == null) {
+			loginPage = new OpenMrsPageObjectModel(driver);
+			
+		}
+		return loginPage;
+	}
+	
+	
+	
+	
+	
+	
+}

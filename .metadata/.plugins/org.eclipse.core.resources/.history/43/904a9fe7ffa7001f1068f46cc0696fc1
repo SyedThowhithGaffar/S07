@@ -1,0 +1,8 @@
+package com.interfaceelements;
+
+public interface Luma {
+
+	String men_xpath= "//*[text()='Men']";
+	String tops_xpath = "(//*[text()='Tops'])[1]";
+	
+}

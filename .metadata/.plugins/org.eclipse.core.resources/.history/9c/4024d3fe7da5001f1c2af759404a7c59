@@ -1,0 +1,27 @@
+package com.TestNG;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+
+public class SimpleAnnotations {
+
+	@BeforeSuite
+	private void propertySetting() {
+		
+	}
+	@BeforeTest
+	private void browserLaunch() {
+		
+	}
+	@BeforeClass
+	private void urlLaunch() {
+		
+	}
+	@BeforeMethod
+	private void login() {
+		
+		
+	}
+}

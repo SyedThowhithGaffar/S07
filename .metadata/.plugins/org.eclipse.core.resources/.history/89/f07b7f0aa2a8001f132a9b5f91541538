@@ -1,0 +1,8 @@
+package com.pageobjectmodel;
+
+import org.openqa.selenium.support.FindBy;
+
+public class MenAddressModelPage {
+
+	@FindBy(xpath = )
+}
